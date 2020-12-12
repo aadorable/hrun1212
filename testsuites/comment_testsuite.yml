@@ -1,0 +1,8 @@
+
+config:
+    name: "评价 testsuite"
+
+testcases:
+-
+    name: 评价测试用例
+    testcase: testcases/comment_testcase.yml
