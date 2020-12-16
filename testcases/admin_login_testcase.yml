@@ -8,4 +8,3 @@ teststeps:
     api: api/admin_login_api.yml
     validate:
         - eq: ["status_code", 200]
-        - contains: [content, 'MTX后台管理系统']
